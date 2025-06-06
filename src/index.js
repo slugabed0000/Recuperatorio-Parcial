@@ -1,5 +1,5 @@
 const express = require("express");
-const {productos} =  require("../data/productos.js")
+const productos=  require("../data/productos.js")
 const {validar} = require("./filtros/validaciones")
 const nombresValidaciones = Object.keys(validar)
 
